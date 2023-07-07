@@ -1,0 +1,62 @@
+
+    :root {
+        --cor1: #142d4c;
+        --cor2: #385170;
+        --cor3: #9fd3c7;
+        --cor4: #ececec;
+        --cor5: #213e3b;
+        --cor6: blueviolet;
+        --cor7: #1e90ff;
+      }
+  
+  body {
+    color: #e8ffff;
+    background-color: #213e3b;
+    margin: 40px;
+  }
+  
+  .placar{
+    font-size: 12px;
+  }
+  
+  .jogoDesc{
+    font-size: 12px;
+    text-align: center;
+    margin: 1%;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: stretch;
+    gap: 20px;
+  }
+
+
+
+  .jogo {
+    height: 20%;
+    background-color: var(--cor1);
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align: center;
+
+  }
+    
+  .jogoMain {
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 2;
+    gap:10px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+.main{
+    text-align: center;
+}
