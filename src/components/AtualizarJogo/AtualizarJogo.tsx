@@ -35,6 +35,7 @@ function AtualizarJogo(){
                 </span> :
                 <span>
                     Jogo Finalizado
+                    <br />
                 </span>}
                 <br />
             </span>
@@ -43,6 +44,7 @@ function AtualizarJogo(){
                 {pontuacao.pontuacaoBkp !== null &&
                 <button onClick={() => setPontuacao(Desfazer(pontuacao) ?? pontuacao)}> Desfazer</button>
                 }
+                <br />
                 <br />
             </div>
             <hr />
